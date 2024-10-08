@@ -35,7 +35,7 @@ nav div i{
     color: white;
     font-size: 1.1em;
     padding: 10px 3px 0px;
-    
+    cursor: pointer;    
 }
 
 header ul{
@@ -55,13 +55,15 @@ header nav{
 }
 
 .logo{
-    height: 40px;
+    height: 35px;
     flex: auto;
+    cursor: pointer;
 }
 
 .max-width {
     margin: 0 auto;
     max-width: 1200px;
+    padding-top: 11px;
 }
 
 /* flex */
@@ -166,7 +168,7 @@ main div p{
  }
 
  footer div h3,p{
-    padding: 25px 0px 5px;
+    padding: 10px 0px 5px;
     font-size: 1.3;
  }
 
