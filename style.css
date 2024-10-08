@@ -17,6 +17,7 @@
 header {
     height: 80px;
     background-color: #FF6900;
+    z-index: 100;
 }
 
 .contenitori {
@@ -49,7 +50,7 @@ header ul li a {
     text-decoration: none;
     color: white;
     padding: 5px;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 header nav{
@@ -73,27 +74,84 @@ header nav{
 
 }
 
-.row-reverse {
-    flex-direction: row-reverse;
-}
-
 .space-between {
     justify-content: space-between;
 }
 
 /* inizio main */
 
+
 .row{
     display: flex;
-    gap: 5px;
+    gap: 17px;
     flex-wrap: wrap;
+    padding-bottom: 50px;
 }
 
 .col{
-    width: calc((100% - 10px) / 3);
+    width: calc((100% - 34px) / 3);
+    position: relative;
 }
 
 .col img{
     width: 100%;
     display: block;
+}
+
+.hearts{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2.5em;
+}
+
+.position{
+    padding: 2px 15px;    
+    background-color: white;    
+    margin-top: 10px;
+}
+
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+.badge{
+    position: absolute;
+    bottom: 88px;
+    padding: 3px 10px; 
+ 
+}
+
+main div p{
+    padding: 2px 0px;
+
+}
+
+.green{
+    background-color: #0F860F; 
+    color: white;
+}
+
+.sostenibilita{
+    position: absolute;
+    bottom: 88px;
+    left: 65px;
+    padding: 3px 10px;   
+}
+
+.color-red{
+    color: red;
+}
+.color-black{
+    color: black;
+}
+
+.padding{
+    padding-top: 80px;
+}
+
+.overline{
+    text-decoration: line-through;
 }
