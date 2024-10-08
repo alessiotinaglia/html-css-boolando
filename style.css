@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* root */
+:root {
+    --orange: #FF6900;
+    --red: #FC0F0F;
+    --green: #0F860F;
+    --blak: #000000;
+}
+
+/* <!-- inizio header --> */
+
+header {
+    height: 80px;
+    background-color: #FF6900;
+}
+
+.contenitori {
+    border: 1px solid black;
+}
+
+.max-width {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.aling-items{
+    align-items: center;
+    justify-content: center;
+}
+
+nav div i{
+    color: white;
+    font-size: 1.1em;
+    padding: 10px 3px 0px;
+    
+}
+
+header ul{
+    list-style: none;
+}
+
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+header nav{
+    padding: 15px 0px 0px;
+}
+
+.logo{
+    height: 40px;
+    flex: auto;
+}
+
+.max-width {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* flex */
+
+.d-flex {
+    display: flex;
+
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+/* inizio main */
+
+.row{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.col{
+    width: calc((100% - 10px) / 3);
+}
+
+.col img{
+    width: 100%;
+    display: block;
+}
